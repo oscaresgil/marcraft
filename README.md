@@ -66,6 +66,7 @@ Now we need MarCraft source.
 
 ## Inside MarCraft
 ![minecraft](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/minecraft.jpg)
+
 1. Inside Marcraft main menu, select `Singleplayer`.
 2. Select `Create New World`
 3. Type any name for the world
