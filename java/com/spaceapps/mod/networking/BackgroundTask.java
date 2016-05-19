@@ -1,9 +1,10 @@
 package com.spaceapps.mod.networking;
 
+import com.spaceapps.mod.SAGlobal;
+
 public class BackgroundTask extends Thread{
 	public void run(){
-		while(true){
-			System.out.println("hola");
-		}
+		System.out.println("Processing information in background");
+		SAGlobal.getWorldMatrix();
 	}
 }

@@ -6,7 +6,6 @@ import java.util.Random;
 import com.spaceapps.mod.SAGlobal;
 import com.spaceapps.mod.blocks.SABlocks;
 import com.spaceapps.mod.networking.BackgroundTask;
-import com.spaceapps.mod.networking.ServerRequester;
 
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.init.Blocks;
@@ -90,9 +89,8 @@ public class SAWorldGen implements IWorldGenerator {
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
     	// The first generation will set center of the world
     	if(SAGlobal.worldMatrix==null){
-    		SAGlobal.worldMatrix=SAGlobal.getWorldMatrix();
-    		ServerRequester serverRequester = new ServerRequester();
-    		serverRequester.init();
+    		//SAGlobal.worldMatrix=SAGlobal.getWorldMatrix();
+    		SAGlobal.init();
     		//Thread thread = new BackgroundTask();
     		//thread.start();
     	}

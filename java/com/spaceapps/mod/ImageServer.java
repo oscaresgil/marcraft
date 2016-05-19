@@ -8,6 +8,8 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 import javax.imageio.ImageIO;
+
+import scala.util.parsing.json.JSON;
 public class ImageServer {
     //Variables estaticas
     private float mapWidthInDegree = 360.0f;
@@ -27,10 +29,11 @@ public class ImageServer {
     private float min = 100000000;
     private float max = 0;
     
-    public int[][] getHeightMap(int x, int y) throws Exception{
+    public int[][] getHeightMap(int offsetX, int offsetY) throws Exception{
+    	int x=4,y=4;
         int result[][] = null;
-        int offsetX = 16;
-        int offsetY = 30;
+        offsetX = (offsetX)*4;
+        offsetY = (offsetY)*4;
         
         int superM[][][][] = new int[x][y][pixelTileHeight][pixelTileWidth];
         
