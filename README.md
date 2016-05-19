@@ -12,22 +12,22 @@
 ## Steps:
 ### Installing Java JDK
 1. Download and install Java's JDK [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html?ssSourceSiteId=otnes.):  
-
 2. Add the Java's directory into the environment variables.
+
 ### Configuring Source Forge
 1. Download a copy of the Source Forge of Minecraft from this [link](http://adfoc.us/serve/sitelinks/?id=271228&url=http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8.9-11.15.1.1902-1.8.9/forge-1.8.9-11.15.1.1902-1.8.9-mdk.zip), skipping the ads inside it.
 2. Unzip the downloaded file into the project's folder. 
 
-![openwindow](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/openwindow.jpg)
+	![openwindow](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/openwindow.jpg)
 3. Navigate inside the folder, open a terminal and run this command:
-	
-	##### Windows
-	    gradlew setupDecompWorkspace --refresh-dependencies
-	##### Linux/Unix
-	    ./gradlew setupDecompWorkspace --refresh-dependencies
 
-	![gradlew](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/gradlew.jpg)
-	If the command doesn't work, you must enter this command first: `chmod +x gradlew`.
+##### Windows
+    gradlew setupDecompWorkspace --refresh-dependencies
+##### Linux/Unix
+    ./gradlew setupDecompWorkspace --refresh-dependencies
+
+![gradlew](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/gradlew.jpg)
+If the command doesn't work, you must enter this command first: `chmod +x gradlew`.
 	
 #### IDE
 4. After the installation of the gradle is done, we must choose the IDE. We are only showing Eclipse and Intellij, other IDEs are accepted but not listed in this tutorial.
