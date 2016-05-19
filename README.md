@@ -1,6 +1,8 @@
 # MarCraft
 > SpaceApps challenge 2016 - Open World Generation using NASA Mars and Vesta Data
 
+![MarCraft](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/MarCraft.png)
+
 ## Tools:
 1. Java JDK
 2. Minecraft Source Forge
@@ -10,11 +12,12 @@
 ## Steps:
 ### Installing Java JDK
 1. Download and install Java's JDK [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html?ssSourceSiteId=otnes.):  
-2. Add the Java's directory into the environment variables.
 
+2. Add the Java's directory into the environment variables.
 ### Configuring Source Forge
-1. Download a copy of the Source Forge of Minecraft from this [link](http://adfoc.us/serve/sitelinks/?id=271228&url=http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8.9-11.15.1.1902-1.8.9/forge-1.8.9-11.15.1.1902-1.8.9-mdk.zip), passing through the ads inside it.
-2. Unzip the downloaded file into the project's folder.
+1. Download a copy of the Source Forge of Minecraft from this [link](http://adfoc.us/serve/sitelinks/?id=271228&url=http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8.9-11.15.1.1902-1.8.9/forge-1.8.9-11.15.1.1902-1.8.9-mdk.zip), skipping the ads inside it.
+2. Unzip the downloaded file into the project's folder. 
+![openwindow](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/openwindow.jpg)
 3. Navigate inside the folder, open a terminal and run this command:
 	
 	##### Windows
@@ -22,6 +25,8 @@
 	##### Linux/Unix
 	    ./gradlew setupDecompWorkspace --refresh-dependencies
 	If the command doesn't work, you must enter this command first: `chmod +x gradlew`.
+	
+	![gradlew](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/gradlew.jpg)
 #### IDE
 4. After the installation of the gradle is done, we must choose the IDE. We are only showing Eclipse and Intellij, other IDEs are accepted but not listed in this tutorial.
 	* For **Eclipse**, run this command:
@@ -42,6 +47,7 @@
 		* Go to `Application/Minecraft` Client
 		* In the `Use classpath of module` section, switch the package to `<Name of Project>_main` and click on `Apply`.
 		* Do the same steps for the Minecraft Server.
+		![intellij](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/intellij.jpg)
 
 6. Run the project. 
 
@@ -55,6 +61,7 @@ Now we need MarCraft source.
 4. Run the updated project.
 
 ## Inside MarCraft
+![minecraft](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/minecraft.jpg)
 1. Inside Marcraft main menu, select `Singleplayer`.
 2. Select `Create New World`
 3. Type any name for the world
