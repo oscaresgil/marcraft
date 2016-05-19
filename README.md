@@ -56,6 +56,7 @@ If the command doesn't work, you must enter this command first: `chmod +x gradle
 
 ### Getting MarCraft Source
 Now we need MarCraft source. 
+
 1. We need to install Git; you can get it [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):
 2. Open the directory folder and navigate to the `src/main` folder. Inside it, open a Terminal and run this command:
     git clone https://github.com/oscaresgil/marcraft
