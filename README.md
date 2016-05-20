@@ -56,7 +56,11 @@ If the command doesn't work, you must enter this command first: `chmod +x gradle
 		
 		![intellij](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/intellij.jpg)
 
-6. Run the project. 
+#### JSon Simple
+6. Now you need JSon Simple to contribute generating the height maps. You can download it [here](www.java2s.com/Code/JarDownload/json-simple/json-simple-1.1.jar.zip).
+	* Include it as a project depency.
+
+7. Run the project. 
 
 ### Getting MarCraft Source
 Now we need MarCraft source. 
