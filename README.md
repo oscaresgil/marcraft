@@ -1,6 +1,10 @@
 # MarCraft
 > SpaceApps challenge 2016 - Open World Generation using NASA Mars and Vesta Data
 
+## Official Links
+* [Project Page](http://oscaresgil.github.io/marcraft/)
+* [NASA's Event](https://2016.spaceappschallenge.org/challenges/solar-system/open-world-generation-using-nasa-mars-and-vesta-data/projects/marcraft)
+
 ![MarCraft](https://raw.githubusercontent.com/oscaresgil/marcraft/gh-pages/images/MarCraft.png)
 
 ## Tools:
